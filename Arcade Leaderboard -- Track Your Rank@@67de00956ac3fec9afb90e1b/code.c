@@ -1,8 +1,7 @@
 // Your code here...def find_ranks(leaderboard_scores, player_scores):
-    // # Create a unique, sorted list of leaderboard scores
-    unique_leaderboard_scores = sorted(set(leaderboard_scores), reverse=True)
+    
 
-    // # List to store the player's ranks
+
     player_ranks = []
 
     for score in player_scores:
